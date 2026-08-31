@@ -2,5 +2,4 @@ Command:
 curl -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d "{\"username\":\"hemant123\",\"password\":\"pass123\"}"
 
 Output:
-{"message":"Login successful","token":"YOUR_ACTUAL_TOKEN"}
-
+{"message":"Login successful","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbWFudDEyMyIsImlhdCI6MTc4ODE5NDgyNiwiZXhwIjoxNzg4MTk4NDI2fQ.7Ql7AHH3Nle535VypxJjaPnRgbleVsfmlAa2wscSwl0"}
